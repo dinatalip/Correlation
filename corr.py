@@ -88,3 +88,11 @@ if st.sidebar.button("Analyze"):
     # Display the correlation values
     st.write(f"Correlation between LST and NDBI: {lst_ndbi_corr}")
     st.write(f"Correlation between LST and NDVI: {lst_ndvi_corr}")
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
