@@ -4,12 +4,12 @@ import matplotlib.pyplot as plt
 
 # Load your data into pandas DataFrames
 data = {
-    "2001_BahirDar": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2001_BahirDar.csv"),
-    "2011_BahirDar": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2011_BahirDar.csv"),
-    "2021_BahirDar": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2021_BahirDar.csv"),
-    "2001_Hawassa": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2001_Hawassa.csv"),
-    "2011_Hawassa": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2011_Hawassa.csv"),
-    "2021_Hawassa": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2021_Hawassa.csv")
+    "2001_BahirDar": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2001_BahirDar.csv?token=GHSAT0AAAAAACJX3KZGSHOKQMWBN3XOQW2AZKC2D6A"),
+    "2011_BahirDar": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2011_BahirDar.csv?token=GHSAT0AAAAAACJX3KZGIT24FLRB52LE5XZSZKC2FDQ"),
+    "2021_BahirDar": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2021_BahirDar.csv?token=GHSAT0AAAAAACJX3KZGLM7TV62XRJTXP7SOZKC2F2A"),
+    "2001_Hawassa": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2001_Hawassa.csv?token=GHSAT0AAAAAACJX3KZHTV5AQIRTILAMFPFAZKC2EYA"),
+    "2011_Hawassa": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2011_Hawassa.csv?token=GHSAT0AAAAAACJX3KZGG3IQAYJFPI45JPXIZKC2FNA"),
+    "2021_Hawassa": pd.read_csv("https://raw.githubusercontent.com/Manniy/Corr/main/2021_Hawassa.csv?token=GHSAT0AAAAAACJX3KZGCJXTCHSZ3INH6WDAZKC2GDQ")
 }
 
 # Streamlit app
